@@ -8,7 +8,7 @@
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -20,4 +20,16 @@
 
     font-size: 25px;
     font-weight: 500;
+}
+
+.head p span {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#headerImg{
+    width: 350px;
+    height: 460px;
+    object-fit: cover;
+    object-position: center;
 }

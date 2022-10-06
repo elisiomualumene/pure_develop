@@ -1,5 +1,7 @@
 const root = document.querySelector(".root")
 
+const headerImg = "./src/assets/header.jpg"
+
 root.innerHTML = 
 `
 <nav class="menu">
@@ -14,8 +16,12 @@ root.innerHTML =
 </nav>
 
 <div class="head">
-    <p>A Develop é uma marca de Roupa Angola, que tem por objetivo Proporcionar a melhor qualidade para os seus clientes.</p>
-    <img src="" alt="header image"/>
+    <p>A <span>Develop</span> é uma marca de roupa angolana, que tem por objetivo proporcionar a melhor qualidade para os seus clientes.</p>
+    <img src='${headerImg}' alt="header image" id="headerImg"/>
+</div>
+
+<div class="category">
+    
 </div>
 `
 
