@@ -1,5 +1,6 @@
 const root = document.querySelector(".root")
 
+const menuIcon = "./src/assets/icons/menu.png"
 const headerImg = "./src/assets/header.jpg"
 
 root.innerHTML = 
@@ -12,7 +13,7 @@ root.innerHTML =
         <a href="#"><li>Categorias</li></a>
         <a href="#"><li>Contato</li></a>
     </ul>
-
+    <img src='${menuIcon}' alt="menu" width="30px" id="menuIcon"/>
 </nav>
 
 <div class="head">

@@ -15,6 +15,10 @@
     background-color: white;
 }
 
+#menuIcon{
+    display: none;
+}
+
 h1{
     cursor: pointer;
     text-transform: uppercase;
@@ -50,4 +54,8 @@ h1{
     .menu ul {
         display: none;
     }
+
+    #menuIcon{
+    display: flex;
+}
 }

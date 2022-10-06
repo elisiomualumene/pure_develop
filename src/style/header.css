@@ -1,7 +1,7 @@
 .head{
     display: flex;
 
-    height: 600px;
+    min-height: 600px;
     width: 100%;
 
     background: rgb(238,174,202);
@@ -14,7 +14,7 @@
 
 
 .head p {
-    width: 385px;
+    max-width: 385px;
 
     text-align: left;
 
@@ -26,10 +26,30 @@
     font-size: 40px;
     font-weight: 900;
 }
-
 #headerImg{
-    width: 350px;
-    height: 460px;
+    max-width: 350px;
+    min-height: 460px;
     object-fit: cover;
     object-position: center;
+}
+
+@media screen and (max-width: 780px) {
+    .head{
+        margin: auto;
+    }
+
+    .head p {
+        margin: auto; 
+        
+        font-size: 20px;
+    }
+
+    .head p span {
+        margin: auto;
+        font-size: 30px;
+    }
+
+    #headerImg{
+        display: none;
+    }
 }
