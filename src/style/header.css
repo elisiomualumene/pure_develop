@@ -1,0 +1,23 @@
+.head{
+    display: flex;
+
+    height: 600px;
+    width: 100%;
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.head p {
+    width: 385px;
+
+    text-align: left;
+
+    font-size: 25px;
+    font-weight: 500;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "pure_develop",
+  "version": "1.0.0",
+  "description": "shop",
+  "main": "index.js",
+  "repository": "https://github.com/elisiomualumene/pure_develop.git",
+  "author": "Elisio Mualumene <elisio.mualumene@nzooji.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
